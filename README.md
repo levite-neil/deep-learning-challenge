@@ -1,12 +1,12 @@
-# deep-learning-challenge
+# Deep Learning challenge
 
 The purpose of this analysis was to determine wheater applicants submitted to the nonprofit foundation Alphbet Soup for funding  had a good chance for succeess in their ventures. We were presented with 34,000 organziations that were already funded by Alphbet Soup over the years that had effectively use the funds and those that didn't.
 
-* Data Preprocessing
-    ## Target:
-    *IS_SUCCESSFUL—Was the money used effectively
+##Data Preprocessing
+    Target
+    IS_SUCCESSFUL—Was the money used effectively
 
-    ## Features:
+    Features:
     *APPLICATION_TYPE—Alphabet Soup application type
     *AFFILIATION—Affiliated sector of industry
     *CLASSIFICATION—Government organization classification
@@ -17,11 +17,11 @@ The purpose of this analysis was to determine wheater applicants submitted to th
     *SPECIAL_CONSIDERATIONS—Special considerations for application
     *ASK_AMT—Funding amount requested
 
-    ## Removed variables:
+    Removed variables:
     *EIN-Identification
     *NAME—Identification
 
-*Compiling, Training, and Evaluating the Model
+##Compiling, Training, and Evaluating the Model
     For the first attempt, I used 80 neuron in the first layer and 30 in the second layer. I used relu for my activation.For my second attempt, I used the following:
     *Layer 1 80 neurons with the relu activation.
     *Layer 2 30 neurons with the relu activation.
