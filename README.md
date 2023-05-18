@@ -3,31 +3,31 @@
 The purpose of this analysis was to determine wheater applicants submitted to the nonprofit foundation Alphbet Soup for funding  had a good chance for succeess in their ventures. We were presented with 34,000 organziations that were already funded by Alphbet Soup over the years that had effectively use the funds and those that didn't.
 
 ## Data Preprocessing
-    Target
-    IS_SUCCESSFUL—Was the money used effectively
+    Target:
+    * IS_SUCCESSFUL—Was the money used effectively
 
     Features:
-    *APPLICATION_TYPE—Alphabet Soup application type
-    *AFFILIATION—Affiliated sector of industry
-    *CLASSIFICATION—Government organization classification
-    *USE_CASE—Use case for funding
-    *ORGANIZATION—Organization type
-    *STATUS—Active status
-    *INCOME_AMT—Income classification
-    *SPECIAL_CONSIDERATIONS—Special considerations for application
-    *ASK_AMT—Funding amount requested
+    * APPLICATION_TYPE—Alphabet Soup application type
+    * AFFILIATION—Affiliated sector of industry
+    * CLASSIFICATION—Government organization classification
+    * USE_CASE—Use case for funding
+    * ORGANIZATION—Organization type
+    * STATUS—Active status
+    * INCOME_AMT—Income classification
+    * SPECIAL_CONSIDERATIONS—Special considerations for application
+    * ASK_AMT—Funding amount requested
 
     Removed variables:
-    *EIN-Identification
-    *NAME—Identification
+    * EIN-Identification
+    * NAME—Identification
 
 ## Compiling, Training, and Evaluating the Model
     For the first attempt, I used 80 neuron in the first layer and 30 in the second layer. I used relu for my activation.For my second attempt, I used the following:
-    *Layer 1 80 neurons with the relu activation.
-    *Layer 2 30 neurons with the relu activation.
-    *Layer 3 20 neurons with the relu activation. 
-    *Layer 4 20 neurons with the leaky_relu activation. 
-    *Output layer 1 with 1 neuron and sigmoid activation.
+    * Layer 1 80 neurons with the relu activation.
+    * Layer 2 30 neurons with the relu activation.
+    * Layer 3 20 neurons with the relu activation. 
+    * Layer 4 20 neurons with the leaky_relu activation. 
+    * utput layer 1 with 1 neuron and sigmoid activation.
     
     I was not able to achive the target model performance of 75%.
     To increase the models performance, I removed EIN, NAME, and AFFILIATION columns, added more APPLICATION_TYPEs and CLASSIFICATION to the Other bin accordingly.
