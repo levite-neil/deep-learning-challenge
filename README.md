@@ -1,4 +1,4 @@
-# Deep Learning challenge
+# Deep Learning Challenge
 
 The purpose of this analysis was to determine wheater applicants submitted to the nonprofit foundation Alphbet Soup for funding  had a good chance for succeess in their ventures. We were presented with 34,000 organziations that were already funded by Alphbet Soup over the years that had effectively use the funds and those that didn't.
 
